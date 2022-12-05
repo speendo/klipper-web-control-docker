@@ -2,7 +2,7 @@ version: '3.4'
 
 services:
   klipper:
-    image: dimalo/klipper-moonraker
+    image: speendo/klipper-moonraker
     build:
       dockerfile: ./klipper/Dockerfile
       context: .
